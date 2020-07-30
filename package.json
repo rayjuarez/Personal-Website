@@ -1,0 +1,16 @@
+{
+  "name": "CS350Project4",
+  "description": "Personal website for Raymond Juarez",
+  "main": "firstserver.js",
+  "author": "Raymond Juarez",
+  "scripts": {
+    "start": "node firstserver.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.11"
+  },
+  "engines":{
+    "node":"12.18.2"
+  }
+}

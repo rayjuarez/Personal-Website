@@ -1,0 +1,117 @@
+.body1 {
+  background-image: url("pro.jpg");
+  background-size: cover;
+}
+
+.body2{
+  background-color: darkgrey;
+}
+
+.h1{
+  text-align: center;
+  color:white;
+}
+
+.h2{
+  color:black;
+  text-align: center;
+}
+
+.a {
+  color:white;
+  text-shadow: 5px 5px 6px lightgrey;
+}
+
+.text{
+  text-align: center;
+  color:black;
+
+}
+
+.sidenav {
+  height: auto;
+  text-align: center;
+  display:block;
+  width: 120px;
+  position:fixed;
+  top: 0;
+  overflow-x: hidden;
+  font-size: 18px;
+  color: black;
+  background-color: black;
+}
+
+.sidenav2{
+  overflow: hidden;
+  background-color: Black;
+  padding: 5px 5px;
+  transition: 0.4s;
+  position: fixed;
+  width: 50%;
+  top: 0;
+
+}
+
+.aside3{
+
+  color:black;
+  float: right;
+  text-align: left;
+  width: 200px;
+  padding-right: 300px;
+}
+
+.aside{
+  border: thick black;
+  color:black;
+  text-shadow: 10px 10px 100px burlywood;
+  float: right;
+  text-align: center;
+  width: 200px;
+}
+
+.aside2{
+  border: thick black;
+  color:black;
+  text-shadow: 10px 10px 100px burlywood;
+  float: left;
+  text-align: center;
+  width: 200px;
+}
+
+.nav{
+  text-align: center;
+}
+
+.ftable{
+  border-style: solid;
+  display: table;
+  border-spacing: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:slategrey;
+}
+
+.ftable2{
+  border-style: solid;
+  display: table;
+  border-spacing: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color:slategrey;
+}
+
+.fcaption{
+  display: table-caption;
+  font-size: x-large;
+  text-align: center;
+  color:black;
+  text-shadow: 10px 10px 100px red;
+}
+
+.frow{
+  display: table-row;
+  text-align: center;
+  color:black;
+  text-shadow: 10px 10px 100px red;
+}

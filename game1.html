@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="author" content="Raymond Juarez">
+<title>Game</title>
+<link rel = "stylesheet"  type ="text/css" href = "project3.css">
+<style>
+div{text-align: center;
+}
+p{text-align: center;}
+ canvas {
+  position:absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border: thick solid black;
+  background-color: white;
+ }
+ a:link {color: white; }
+ a:visited {color: white;}
+ a:hover{color: yellowgreen;}
+ </style>
+ <script src="game1.js"></script>
+</head>
+
+
+  <aside class="sidenav">
+  <a href="index.html">Home</a><br><br>
+  <a href="photosandpoems.html">Photos</a><br><br>
+  <a href="photosandpoems.html">Poem & Mottos</a><br><br>
+  <a href="scheduleandmusic.html">2020 Schedule</a><br><br>
+  <a href="scheduleandmusic.html">Music & Video</a><br><br>
+  <a href="form.html">Feedback form</a><br><br>
+  </aside>
+
+<body class="body2" onload="initialize();">
+  <h1 class="h1">The canvas game</h1>
+  <div>
+    <input type="button" value="Turn" onclick="rotateClockwise();">
+    <input type="button" value="Up" onclick="moveUp();">
+    <input type="button" value="Down" onclick="moveDown()">
+    <input type="button" value="Turn" onclick="counterClockwise();">
+  </div>
+  <canvas id="canvas" width="500" height="500">
+  </canvas>
+  <div>
+    <p class="aside3">
+    -The player needs to fit the red rectangle into the outlined box of the rectangle. <br><br>
+    -In order to do so the player must use all the buttons at your disposal<br><br>
+    -*The rotate buttons rotate the rectangle at different paces so be aware*<br><br>
+    -*When you use the rotate buttons keep in mind that the "up" & "down" buttons will do opposite.
+
+    </p>
+  </div>
+
+<script>
+
+</script>
+</body>
+</html>
