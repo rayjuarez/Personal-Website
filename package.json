@@ -7,7 +7,7 @@
     "start": "node firstserver.js"
   },
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "nodemailer": "^6.4.11"
   },
   "engines":{
